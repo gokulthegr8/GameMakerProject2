@@ -11,3 +11,4 @@ myTextBox=noone
 boolCup=false
 boolDoor=false
 myName="Player"
+boolLever=false

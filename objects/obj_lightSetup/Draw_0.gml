@@ -25,6 +25,9 @@ var _u_z = u_z
 var _u_z2= u_z2
 
 surface_set_target(_lighting_surface)
+if(obj_player.boolLever==true)
+draw_clear_alpha(c_black,0.5);
+else
 draw_clear_alpha(c_black,1);
 
 gpu_set_ztestenable(1)
