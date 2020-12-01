@@ -15,6 +15,7 @@ if(place_meeting(x,y,obj_player)){
 	with(obj_lever){	
 	obj_player.camera.updateCamera(id,25,650,360)
 	obj_player.camera.set()
+	obj_player.boolLever=true
 	}
 	obj_player.alarm[0]=room_speed*5;
 	//abc
