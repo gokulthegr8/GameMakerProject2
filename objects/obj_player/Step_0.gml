@@ -19,15 +19,27 @@ light.y = y;
 light.updateAngle(point_direction(light.x, light.y, mouse_x, mouse_y),light.ConeAngle)
 }
 
+//Code for Ghost interaction
 if(place_meeting(x,y,obj_ghost)){
 	if(keyboard_check_pressed(vk_space)){
+		if(boolCup==false){
 	if(myTextBox==noone){
 	myTextBox=instance_create_layer(obj_ghost.x,obj_ghost.y,"Text",obj_textbox)
-	myTextBox.text=obj_ghost.myText
+	myTextBox.text=obj_ghost.myText1
 	myTextBox.creator=self
 	myTextBox.name=obj_ghost.myName
 	}
 }
+else{
+	if(myTextBox==noone){
+	myTextBox=instance_create_layer(obj_ghost.x,obj_ghost.y,"Text",obj_textbox)
+	myTextBox.text=obj_ghost.myText2
+	myTextBox.creator=self
+	myTextBox.name=obj_ghost.myName
+	}
+}
+}
+
 }
 else{
 		if(myTextBox != noone){
@@ -35,3 +47,7 @@ else{
 		myTextBox=noone
 		}
 	}
+
+
+
+

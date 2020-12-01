@@ -8,6 +8,6 @@ light = instance_create_layer(x,y,"IL_Light",obj_light)
 light.ConeAngle = .8
 light.Strength= 150;
 myTextBox=noone
-
-
+boolCup=false
+boolDoor=false
 myName="Player"
