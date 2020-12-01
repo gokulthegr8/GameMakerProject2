@@ -25,7 +25,7 @@ var _u_z = u_z
 var _u_z2= u_z2
 
 surface_set_target(_lighting_surface)
-draw_clear_alpha(c_black,.95);
+draw_clear_alpha(c_black,1);
 
 gpu_set_ztestenable(1)
 gpu_set_zwriteenable(1)
