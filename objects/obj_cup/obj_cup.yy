@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lever",
-    "path": "sprites/spr_lever/spr_lever.yy",
+    "name": "spr_cup",
+    "path": "sprites/spr_cup/spr_cup.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_lever","path":"objects/obj_lever/obj_lever.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_lever",
+  "name": "obj_cup",
   "tags": [],
   "resourceType": "GMObject",
 }
