@@ -4,7 +4,9 @@
     {"id":{"name":"shd_light","path":"shaders/shd_light/shd_light.yy",},"order":0,},
     {"id":{"name":"obj_Test","path":"objects/obj_Test/obj_Test.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
+    {"id":{"name":"TileSet","path":"sprites/TileSet/TileSet.yy",},"order":2,},
     {"id":{"name":"obj_lightSetup","path":"objects/obj_lightSetup/obj_lightSetup.yy",},"order":2,},
+    {"id":{"name":"ts_wood","path":"tilesets/ts_wood/ts_wood.yy",},"order":0,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
@@ -25,8 +27,8 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrder": [
-    {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -49,13 +51,13 @@
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.0.529",
+    "IDEVersion": "2.3.1.536",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "GroupProject_2",
   "tags": [],
   "resourceType": "GMProject",

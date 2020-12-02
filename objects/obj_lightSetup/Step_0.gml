@@ -11,7 +11,10 @@ function Quad(_vb, _x1, _y1, _x2, _y2){
 }	
 
 if(mouse_check_button_pressed(mb_left)){
-	instance_create_depth(obj_player.x, obj_player.y, depth, obj_light)
+	light = instance_create_depth(obj_player.x, obj_player.y, depth, obj_light)
+	light.R = 0
+	light.G = 0
+	light.B = 0
 }
 
 x_offSet = obj_player.camera.x - (obj_player.camera.Width/2)

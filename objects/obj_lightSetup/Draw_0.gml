@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(!surface_exists(lighting_surface)){
-	lighting_surface = surface_create(1300, 720)
+	lighting_surface = surface_create(2600, 1440)
 }
 
 var _x_offSet = x_offSet
@@ -25,7 +25,7 @@ var _u_z = u_z
 var _u_z2= u_z2
 
 surface_set_target(_lighting_surface)
-draw_clear_alpha(c_black,.95);
+draw_clear_alpha(c_black,.99);
 
 gpu_set_ztestenable(1)
 gpu_set_zwriteenable(1)
@@ -47,6 +47,7 @@ with(obj_light){
 	gpu_set_blendmode(bm_add);
 	//gpu_set_blendmode_ext(bm_src_alpha, bm_one)
 	draw_rectangle(0,0,640,360,0)
+	
 	gpu_set_blendmode(bm_subtract)
 	//gpu_set_blendmode_ext(bm_zero,bm_inv_src_alpha)
 	shader_set_uniform_f(_u_color,0,0,0)

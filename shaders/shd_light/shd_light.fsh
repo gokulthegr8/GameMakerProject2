@@ -22,7 +22,6 @@ void main()
 	if(dot(normalize(dis), look) >= u_coneAngle){
 		str = 1./(sqrt(dis.x * dis.x + dis.y * dis.y + u_strength*u_strength)-u_strength);
 	}
-	
 	str = (float(str>=.3)*.3) + (float(str<.3) * str);
     gl_FragColor = vec4(u_color,str);
 }
