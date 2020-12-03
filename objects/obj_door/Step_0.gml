@@ -13,8 +13,9 @@ if(place_meeting(x,y,obj_player)){
 	show_debug_message("this is called")
 	obj_player.ghflag=!obj_player.ghflag;
 	with(obj_lever){	
-	obj_player.camera.updateCamera(id,25,650,360)
-	obj_player.camera.set()
+		obj_player.camera.updateFollow(id)
+	//obj_player.camera.updateCamera(25,650,360)
+	//obj_player.camera.set()
 	obj_player.boolLever=true
 	}
 	obj_player.alarm[0]=room_speed*5;

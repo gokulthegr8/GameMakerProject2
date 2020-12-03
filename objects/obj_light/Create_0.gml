@@ -13,3 +13,4 @@ function updateAngle(dirAngle,coneAngle){
 	look_x = cos(radians) + x;
 	look_y = -sin(radians) + y;
 }
+audio_play_sound(snd_stage1Bgm,0,1)
