@@ -12,6 +12,7 @@ if(place_meeting(x,y,obj_player)){
 	//abc
 	show_debug_message("this is called")
 	obj_player.ghflag=!obj_player.ghflag;
+	audio_play_sound(snd_doorLock,0,0)
 	with(obj_lever){	
 		obj_player.camera.updateFollow(id)
 	//obj_player.camera.updateCamera(25,650,360)
@@ -28,6 +29,7 @@ else{
 	myTextBox.text=myText2
 	myTextBox.creator=obj_player
 	myTextBox.name=myName
+	alarm[2]=1
 	}
 }
 }

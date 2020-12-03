@@ -11,12 +11,14 @@
     {"id":{"name":"spr_playermoving","path":"sprites/spr_playermoving/spr_playermoving.yy",},"order":9,},
     {"id":{"name":"obj_lever","path":"objects/obj_lever/obj_lever.yy",},"order":5,},
     {"id":{"name":"shd_light","path":"shaders/shd_light/shd_light.yy",},"order":0,},
+    {"id":{"name":"snd_doorLock","path":"sounds/snd_doorLock/snd_doorLock.yy",},"order":10,},
     {"id":{"name":"obj_Test","path":"objects/obj_Test/obj_Test.yy",},"order":2,},
     {"id":{"name":"snd_ghost","path":"sounds/snd_ghost/snd_ghost.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
     {"id":{"name":"TileSet","path":"sprites/TileSet/TileSet.yy",},"order":2,},
     {"id":{"name":"obj_lightSetup","path":"objects/obj_lightSetup/obj_lightSetup.yy",},"order":2,},
     {"id":{"name":"ts_wood","path":"tilesets/ts_wood/ts_wood.yy",},"order":0,},
+    {"id":{"name":"TheEnd","path":"rooms/TheEnd/TheEnd.yy",},"order":1,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"snd_timeline1","path":"sounds/snd_timeline1/snd_timeline1.yy",},"order":4,},
     {"id":{"name":"scr_collideMove","path":"scripts/scr_collideMove/scr_collideMove.yy",},"order":0,},
@@ -60,6 +62,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"TheEnd","path":"rooms/TheEnd/TheEnd.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
