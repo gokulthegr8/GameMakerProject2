@@ -53,12 +53,12 @@ if(instance_exists(obj_player)){
 	
 	gpu_set_blendmode(bm_add);
 	//gpu_set_blendmode_ext(bm_src_alpha, bm_one)
-	draw_rectangle(0,0,640,360,0)
+	draw_rectangle(0,0,2600,1440,0)
 	
 	gpu_set_blendmode(bm_subtract)
 	//gpu_set_blendmode_ext(bm_zero,bm_inv_src_alpha)
 	shader_set_uniform_f(_u_color,0,0,0)
-	draw_rectangle(0,0,640,360,0)
+	draw_rectangle(0,0,2600,1440,0)
 	
 	gpu_set_blendmode(bm_normal)
 	_z --
