@@ -11,10 +11,6 @@ camera.updateFollow(id)
 moveh = right - left;
 movev = down - up;
 
-light.x = x;
-light.y = y;
-light.updateAngle(point_direction(light.x, light.y, mouse_x, mouse_y),light.ConeAngle)
-
 //Changes sprite state
 activeSprite = moveh * (moveh != 0);
 switch(activeSprite){
