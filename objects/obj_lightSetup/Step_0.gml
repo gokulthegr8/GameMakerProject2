@@ -15,7 +15,7 @@ function Quad(_vb, _x1, _y1, _x2, _y2){
 
 
 if(player_exist){
-	
+
 if(mouse_check_button_pressed(mb_left)){
 	light = instance_create_depth(obj_player.x, obj_player.y, depth, obj_light)
 	light.R = 0
