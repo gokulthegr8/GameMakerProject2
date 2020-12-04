@@ -25,16 +25,19 @@ var _u_z = u_z
 var _u_z2= u_z2
 
 surface_set_target(_lighting_surface)
-
+if(instance_exists(obj_player)){
 if(obj_player.boolLever==true)
 draw_clear_alpha(c_black,0.5);
 else
 draw_clear_alpha(c_black,1);
+}
+
 
 gpu_set_ztestenable(1)
 gpu_set_zwriteenable(1)
 var _z = 0
-with(obj_light){
+if(instance_exists(obj_player)){
+	with(obj_light){
 	shader_set(shd_shadow)
 	shader_set_uniform_f(_u_pos2,x-_x_offSet,y-_y_offSet)
 	shader_set_uniform_f(_u_z2,_z)
@@ -59,7 +62,9 @@ with(obj_light){
 	
 	gpu_set_blendmode(bm_normal)
 	_z --
-}
+  }
+ }
+
 
 shader_reset()
 gpu_set_ztestenable(0)
