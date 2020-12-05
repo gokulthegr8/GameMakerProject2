@@ -9,9 +9,12 @@ light.Strength= 150;
 light.G = .2
 
 myName="Ghost"
-myText1[0]="Hey I am Ghost. Dont be scared of me."
-myText1[1]="I need your help with something. You need to find the cup for me"
+myText1[0]="Hey I am Ghost. Dont be scared of me.."
+myText1[1]="I need your help.."
+myText1[2]="I am extremely weak right now and I need my lamp to restore my strength.."
+myText1[3]="Find and bring the lamp to me and I shall return your favor.."
 
-myText2[0]="Oh you brought the cup. Thank you so much!"
-myText2[1]="I can do a favor for you now. I will go ahead and switch on the lever to exit this room for you."
-myText2[2]="Press R when near me to take control of me."
+myText2[0]="Oh you brought the lamp. Thank you so much!!"
+myText2[1]="I can do a favor for you now."
+myText2[2]="I will help you switch on the lever.."
+myText2[3]="Press R when near me to take control of me.."
