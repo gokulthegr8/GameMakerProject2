@@ -1,2 +1,2 @@
-obj_timeline.sound2=false
-obj_timeline.sound3=true
+obj_timeline.msg2=false
+obj_timeline.msg3=true

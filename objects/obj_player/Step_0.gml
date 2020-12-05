@@ -62,7 +62,7 @@ object_set_sprite(obj_player,spr_playermoving)
 
 //Code for Ghost interaction
 if(place_meeting(x,y,obj_ghost)){
-	if(keyboard_check_pressed(vk_enter)){
+	if(keyboard_check_pressed(ord("E"))){
 		audio_play_sound(snd_ghost,0,0)
 		if(boolCup==false){
 	if(myTextBox==noone){

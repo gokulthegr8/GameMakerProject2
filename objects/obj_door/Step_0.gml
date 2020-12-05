@@ -25,11 +25,12 @@ if(place_meeting(x,y,obj_player)){
 }
 else{
 	if(myTextBox==noone){
+		audio_play_sound(snd_leverOn,0,0)
 	myTextBox=instance_create_layer(x,y,"Text",obj_textbox)
 	myTextBox.text=myText2
 	myTextBox.creator=obj_player
 	myTextBox.name=myName
-	alarm[2]=1
+	alarm[2]=180
 	}
 }
 }

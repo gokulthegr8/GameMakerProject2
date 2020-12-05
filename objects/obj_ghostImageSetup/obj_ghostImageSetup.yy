@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_ghost",
+    "path": "objects/obj_ghost/obj_ghost.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
