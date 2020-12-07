@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},"order":0,},
     {"id":{"name":"obj_timeline","path":"objects/obj_timeline/obj_timeline.yy",},"order":9,},
     {"id":{"name":"obj_cup","path":"objects/obj_cup/obj_cup.yy",},"order":7,},
     {"id":{"name":"snd_timeline2","path":"sounds/snd_timeline2/snd_timeline2.yy",},"order":5,},
@@ -19,6 +20,7 @@
     {"id":{"name":"snd_ghost","path":"sounds/snd_ghost/snd_ghost.yy",},"order":2,},
     {"id":{"name":"obj_arm","path":"objects/obj_arm/obj_arm.yy",},"order":1,},
     {"id":{"name":"obj_graphics_ghost","path":"objects/obj_graphics_ghost/obj_graphics_ghost.yy",},"order":1,},
+    {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},"order":16,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"TileSet","path":"sprites/TileSet/TileSet.yy",},"order":2,},
     {"id":{"name":"obj_lightSetup","path":"objects/obj_lightSetup/obj_lightSetup.yy",},"order":2,},
@@ -44,6 +46,7 @@
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":4,},
     {"id":{"name":"Temp","path":"sprites/Temp/Temp.yy",},"order":8,},
     {"id":{"name":"snd_pickupLamp","path":"sounds/snd_pickupLamp/snd_pickupLamp.yy",},"order":1,},
+    {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":15,},
     {"id":{"name":"snd_timeline4","path":"sounds/snd_timeline4/snd_timeline4.yy",},"order":7,},
     {"id":{"name":"obj_graphicsTesting","path":"objects/obj_graphicsTesting/obj_graphicsTesting.yy",},"order":0,},
     {"id":{"name":"snd_timeline3","path":"sounds/snd_timeline3/snd_timeline3.yy",},"order":6,},
@@ -54,6 +57,7 @@
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"order":0,},
     {"id":{"name":"obj_death","path":"objects/obj_death/obj_death.yy",},"order":11,},
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},"order":2,},
+    {"id":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},"order":14,},
     {"id":{"name":"shd_shadow","path":"shaders/shd_shadow/shd_shadow.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
