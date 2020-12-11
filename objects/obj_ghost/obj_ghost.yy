@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_graphics_ghost",
+    "path": "objects/obj_graphics_ghost/obj_graphics_ghost.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
