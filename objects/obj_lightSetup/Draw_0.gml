@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(!surface_exists(lighting_surface)){
-	lighting_surface = surface_create(1300, 720)
+	lighting_surface = surface_create(2600, 1440)
 }
 
 var _x_offSet = x_offSet
@@ -25,12 +25,19 @@ var _u_z = u_z
 var _u_z2= u_z2
 
 surface_set_target(_lighting_surface)
+if(instance_exists(obj_player)){
+if(obj_player.boolLever==true)
+draw_clear_alpha(c_black,0.5);
+else
 draw_clear_alpha(c_black,1);
+}
+
 
 gpu_set_ztestenable(1)
 gpu_set_zwriteenable(1)
 var _z = 0
-with(obj_light){
+if(instance_exists(obj_player)){
+	with(obj_light){
 	shader_set(shd_shadow)
 	shader_set_uniform_f(_u_pos2,x-_x_offSet,y-_y_offSet)
 	shader_set_uniform_f(_u_z2,_z)
@@ -46,15 +53,18 @@ with(obj_light){
 	
 	gpu_set_blendmode(bm_add);
 	//gpu_set_blendmode_ext(bm_src_alpha, bm_one)
-	draw_rectangle(0,0,640,360,0)
+	draw_rectangle(0,0,2600,1440,0)
+	
 	gpu_set_blendmode(bm_subtract)
 	//gpu_set_blendmode_ext(bm_zero,bm_inv_src_alpha)
 	shader_set_uniform_f(_u_color,0,0,0)
-	draw_rectangle(0,0,640,360,0)
+	draw_rectangle(0,0,2600,1440,0)
 	
 	gpu_set_blendmode(bm_normal)
 	_z --
-}
+  }
+ }
+
 
 shader_reset()
 gpu_set_ztestenable(0)

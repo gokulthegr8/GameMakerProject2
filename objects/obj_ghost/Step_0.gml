@@ -11,8 +11,9 @@ left = keyboard_check(ord("A"))
 right = keyboard_check(ord("D"))
 
 if(ghflag==false){
-camera.updateCamera(id,25,650,360)
-camera.set()
+show_debug_message("camera line is below")
+//camera.updateFollow(obj_ghost.id)
+
 moveh = right - left;
 movev = down - up;
 
