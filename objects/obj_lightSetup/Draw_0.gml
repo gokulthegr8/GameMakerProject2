@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(!surface_exists(lighting_surface)){
-	lighting_surface = surface_create(2600, 1440)
+	lighting_surface = surface_create(650, 360)
 }
 
 var _x_offSet = x_offSet
@@ -53,12 +53,12 @@ if(instance_exists(obj_player)){
 	
 	gpu_set_blendmode(bm_add);
 	//gpu_set_blendmode_ext(bm_src_alpha, bm_one)
-	draw_rectangle(0,0,2600,1440,0)
+	draw_rectangle(0,0,650,360,0)
 	
 	gpu_set_blendmode(bm_subtract)
 	//gpu_set_blendmode_ext(bm_zero,bm_inv_src_alpha)
 	shader_set_uniform_f(_u_color,0,0,0)
-	draw_rectangle(0,0,2600,1440,0)
+	draw_rectangle(0,0,650,360,0)
 	
 	gpu_set_blendmode(bm_normal)
 	_z --

@@ -28,7 +28,7 @@ switch(activeSprite){
 }
 
 onGround = grounded(id);
-show_debug_message(boolDoor)
+//show_debug_message(boolDoor)
 vsp = (!(onGround && vsp>0) * vsp); //<<if on ground set vsp to 0
 vsp += (!grounded(id) * grv) + (-key_space * Jump * grounded(id) * (vsp >= 0));
 
@@ -90,6 +90,32 @@ else{
 		}
 	}
 
+	if(instance_exists(obj_bat_control)){
+		 if(scr_inLight(obj_bat_control.id) && distance_to_object(obj_bat_control)<50){		 
+		   obj_bat_control.image_s=1 
+		}
+	}
+	
+	if(instance_exists(obj_bat_fly)){
+	with(obj_bat_fly){	
+		show_debug_message("Here lies the light")
+		//show_debug_message(lig_check)
+	  if(distance_to_object(obj_player)>75){
+		
+		//fly_flag=true;
+		//obj_bat_fly.fly=true;
+	  }else if(distance_to_object(obj_player)<75 && scr_inLight(id)) {
+			if( x > obj_player.x){
+				x+=1
+			}
+			
+			if( x < obj_player.x){
+				x-=1
+			}	
+	  
+	  }
+	 }
+	}
 
 
 

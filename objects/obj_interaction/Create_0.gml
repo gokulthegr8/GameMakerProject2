@@ -16,7 +16,7 @@ function getDependents(){
 				if(value != ","){_name += value;}
 				
 				with(obj_interaction){
-					show_debug_message(InstanceName)
+					//show_debug_message(InstanceName)
 					if(InstanceName == _name){
 						_ls_dependent_assets[_c] = id;
 					}

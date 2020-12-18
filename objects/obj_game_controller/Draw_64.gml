@@ -6,7 +6,7 @@ draw_set_color(c_white)
  curr_lives = __dnd_lives;
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
 
-show_debug_message("Timer: "+ string(time))
+//show_debug_message("Timer: "+ string(time))
 
 draw_text(50, 25, string("Time Left: ") + string(time));
 
