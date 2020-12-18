@@ -3,7 +3,8 @@
 lighting_surface = -1
 x_offSet = 0
 y_offSet = 0
-
+surface_width=650
+surface_height=360
 //shd light
 u_z = shader_get_uniform(shd_light,"u_z")
 
