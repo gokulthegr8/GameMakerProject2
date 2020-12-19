@@ -9,6 +9,6 @@ charCount+=0.2
 }
 textPart=string_copy(text[page],1,charCount)
 draw_set_color(c_yellow)
-draw_text(x,y,name)
+draw_text(x,y+10,name)
 draw_set_color(c_white)
-draw_text_ext(x+xBuffer,y+heightString+yBuffer,textPart,heightString,boxWidth - 2*(xBuffer))
+draw_text_ext(x+xBuffer,y+heightString+yBuffer+10,textPart,heightString,boxWidth - 2*(xBuffer))

@@ -24,5 +24,3 @@ vertex_format_begin();
 vertex_format_add_position_3d();
 vf = vertex_format_end();
 vb = vertex_create_buffer();
-
-window_set_fullscreen(true)

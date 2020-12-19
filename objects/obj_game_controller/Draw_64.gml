@@ -20,5 +20,6 @@ if(curr_lives <= 0)
 {
 	draw_text_transformed(room_width/4, room_height/4, "" + string("Game Over Press F to Restart:"), 2, 2, 0);
 }
-
+draw_set_halign(fa_left)
+draw_text(55, 55, "Score: " + string(score))
 

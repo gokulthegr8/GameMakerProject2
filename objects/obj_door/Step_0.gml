@@ -31,6 +31,8 @@ else{
 	myTextBox.creator=obj_player
 	myTextBox.name=myName
 	alarm[2]=180
+	score=score+obj_game_controller.time
+	audio_stop_sound(snd_stage1Bgm)
 	}
 }
 }
